@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+  font-family: "Arimo", sans-serif;
+  text-decoration: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+
+.box-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00b4d8;
+}
+.box-container .box {
+    width: 700px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    /* box-shadow: 0 5px 15px #0009; */
+    backdrop-filter: blur(5px);
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .box-container .box .image img {
+    width: 200px;
+    height: 200px;
+  }
+  
+
+.box-container .box .content{
+    border-left: 3px solid #023e8a;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.box-container .box .content .info{
+    padding: 10px 0 0 20px;
+    display: flex;
+    flex-flow: column;
+}
+
+.box-container .box .content .info .style-letter{
+  
+}
+
+.box-container .box .content .info .title{
+  display: flex;
+  align-items: center;
+}
+
+.box-container .box .content .info .title h2{
+  margin: 10px 10px 10px 0;
+  color: #4c1b17;
+  font-family: 'Meow Script', cursive;
+}
+
+.box-container .box .content .info a{
+  color: #000;
+  margin: 3px 0;
+}
+
+.box-container .box .content .info i{
+  margin-right: 10px;
+  color: #89a79f;
+}
+
+.box-container .box .content .info button{
+   background-color: #89a79f;
+   color: #4c1b17;
+   font-size: 20px;
+   font-weight: 600;
+   border: none;
+   margin-top: 10px;
+   border-radius: 5px;
+   box-shadow: 0 0 0 5px rgba(158, 147, 147, 0.2);
+   backdrop-filter: blur(5px);
+}
+
+
